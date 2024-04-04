@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" href="styless.css" />
+<script>
+    function myfun(e){
+        e.preventDefault();
+         let x1=document.getElementById('fname').value;
+        let x2=document.getElementById('Sname').value;
+        let x3=document.getElementById('dob').value;
+        let x4=document.getElementById('gender').value;
+        let x5=document.getElementById('email').value;
+        let x6=document.getElementsByName('qualification').value;
+        let x7=document.getElementById('state').value;
+        let x8=document.getElementById('address').value;
+      
+         alert("First Name : "+x1+"\n Second Name : "+x2+"\n DOB : "+x3+"\n Gender : "+x4
+         +"\n Email : "+x5+"\n Qualification : "+x6+"\n State : "+x7+"\n Address : "+x8)
+    }
+</script>
+</head>
+<body class="form">
+    <div class="Form"> 
+        <div class="heading"> 
+        <h2>HTML FORMS</h2>
+    <form action="" method="get">
+        <div class="fname-tag">
+            <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" class="input-tag"><br>
+        </div>
+        <div class="sname-tag">
+        <label for="Sname">Second Name</label><br>
+        <input type="text" name="Sname" id="Sname" class="input-tag"><br>
+    </div>
+    <div class="dob-tag">
+        <label for="dob">DOB</label><br>
+        <input type="date" name="dob" id="dob" class="input-tag"><br>
+    </div>
+    <div class="gender-tag">
+       <label for="gender">Gender</label>
+       <input type="radio" name="gender" id="gender" value="male" >Male
+       <input type="radio" name="gender"  id ="gender" value="female" >Female<br>
+    </div>
+    <div class="email-tag">
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" class="input-tag" ><br>
+    </div>
+    <div class="qualification-tag">
+       <label for="qualification">Qualification</label>
+       <input type="checkbox" name="qualification" id="qualification" value="BE" >
+       <label for="qualification">BE</label>
+       <input type="checkbox" name="qualification" id="qualification" value="ME">
+       <label for="qualification">ME</label>
+       <input type="checkbox" name="qualification" id="qualification" value="BSC">
+       <label for="qualification">BSC</label>
+    </div>
+    <div class="state-tag">
+        <label for="state">State</label>
+        <select name="state" id="state">
+            <option value="Tamilnadu">Tamilnadu</option>
+            <option value="Kerala">Kerala</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="Andhra">Andhra</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Jammu Kashmir">Jammu Kashmir</option>
+        </select>
+    </div>
+    <div class="address-tag">
+        <label for="address">Address</label><br>
+        <textarea name="address" class="address-input" id="address" cols="25" rows="5"  ></textarea><br>
+    </div>
+    
+        <input type="submit" class="input-button" onclick="myfun(event)">
+    
+    </form>
+</div>
+</div>
+</body>

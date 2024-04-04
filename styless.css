@@ -1,0 +1,77 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+
+.input-tag{
+    width: 90%;
+    height: 25px;
+    padding: 4px;
+    border-radius: 8px;
+    border: solid;
+   
+}
+.fname-tag{
+    padding: 8px;
+}
+.sname-tag{
+    padding: 8px;
+}
+.dob-tag{
+    padding: 8px;
+}
+.gender-tag{
+    padding: 8px;
+}
+ .email-tag{
+    padding: 8px;
+}
+.qualification-tag{
+    padding: 8px;
+}
+.address-tag{
+    padding: 8px;
+}
+.input-button{
+    width: 90%;
+    padding: 4px;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 24px;
+    border: solid;
+    
+}
+.input-button:hover{
+    cursor: pointer;
+}
+.address-input{
+    width: 90%;
+    height: 50px;
+    padding: 4px;
+    border-radius: 8px;
+    border: solid;
+}
+.Form{
+    background-image: linear-gradient(to right,violet,blueviolet);
+    color: white;
+    
+    
+    width: 500px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+}
+.heading{
+    padding: 10px;
+    font-size: 26px;
+}
+.state-tag{
+    padding: 8px;
+}
+
